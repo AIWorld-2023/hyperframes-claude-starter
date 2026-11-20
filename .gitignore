@@ -1,0 +1,15 @@
+node_modules/
+.hyperframes/cache/
+.hyperframes/artifacts/
+.thumbnails/
+.waveform-cache/
+renders/
+stills/
+out/
+*.log
+# keep source assets you add, ignore large rendered/intermediate media
+assets/**/*.mp4
+!assets/reference/.gitkeep
+whisper.cpp/
+__pycache__/
+.DS_Store
